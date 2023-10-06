@@ -11,6 +11,6 @@ jobs:
         with:
           java-version: '17'
           distribution: 'adopt'
-
+          cache: 'maven'
       - name: Check
         run: ./mvnw clean test
